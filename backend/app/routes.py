@@ -47,7 +47,7 @@ def register():
                 'message': 'Username already exists.'
             }, 409
 
-        userData = User(username=data['username'], email=data['email'], password=data['password'], image_url='',
+        userData = User(username=data['username'], email=data['email'], password=data['password'], image_url='user.png',
                         display_name=data['username'], description=data['email'], theme="default")
         db.session.add(userData)
         db.session.commit()
