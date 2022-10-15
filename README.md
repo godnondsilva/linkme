@@ -1,6 +1,6 @@
 # LinkMe
 
-A customizable micro-landing page creator using React and Flask.
+A customizable micro-landing page creator using React, Flask and PostgreSQL.
 
 # Frontend Documentation (React)
 
@@ -53,7 +53,6 @@ A customizable micro-landing page creator using React and Flask.
 - For `DATABASE_URL`:
   - In local development, set the variable to `postgresql://<username>:<password>@localhost:5432/linkme`.
   - In production development, set the variable to the published URL.
-  - In local and production development, set the variable to your [OpenWeatherMap API key](https://openweathermap.org/).
 
 ## Running backend in development mode
 
